@@ -155,6 +155,9 @@ module.exports = {
       'comp':resolveApp('src/components'),
       'common':resolveApp('src/common'),
       'view':resolveApp('src/containers'),
+      'api':resolveApp('src/api'),
+      'store':resolveApp('src/store'),
+      'routers':resolveApp('src/routers'),
       'utils':resolveApp('src/utils')
     },
     plugins: [
